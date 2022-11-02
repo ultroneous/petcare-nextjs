@@ -1,0 +1,123 @@
+.Footer {
+  background: #23212b;
+  padding: 4rem 0;
+}
+.contFluid {
+  padding: 0 4rem;
+}
+.Input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 0.5px solid #fff;
+  width: 16rem;
+  padding: 1.02rem 0;
+  color: #fff;
+}
+.Footer h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  font-family: sans-serif;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+.Footer h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  font-family: sans-serif;
+}
+.FooterLink {
+  color: #dd8f9b;
+  list-style: none;
+  text-align: left;
+  padding: 0.5rem 0;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.Brandtextfooter {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  font-family: sans-serif;
+  margin: 0;
+}
+.FooterSecond {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #c6818d;
+  font-family: sans-serif;
+}
+.Footerleft {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+.FooterFirst {
+  text-align: left;
+}
+.Socialimg {
+  padding-right: 1rem;
+  cursor: pointer;
+}
+.Socialcol {
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footerfirst {
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+  .Brandtextfooter {
+    text-align: center;
+  }
+  .Footermob {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+
+  .SocialMedia {
+    padding: 1rem 0;
+  }
+  .Footerleft {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    text-align: left;
+  }
+  .socialimg {
+    padding-right: 0.5rem;
+  }
+  .contFluid {
+    padding: 0 1rem;
+  }
+  .FooterFirst {
+    padding-bottom: 2.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .footerfirst {
+    text-align: left;
+    padding-bottom: 3rem;
+  }
+  .Brandtextfooter {
+    text-align: center;
+  }
+  .FooterFirst {
+    padding-bottom: 2.5rem;
+  }
+}

@@ -1,0 +1,46 @@
+.contFluid{
+    padding: 0 4rem;
+}
+.FurrySafe{
+    padding: 4rem 0;
+}
+.FurrySafe p{
+ font-size: 22px;
+ font-weight: 400;
+ color: #B4B4B4;
+ padding-left: 3rem;
+ font-family: sans-serif; 
+}
+.safeHand{
+    text-align: end;
+    
+}
+@media (min-width:320px) and (max-width: 767px){
+    .contFluid{
+        padding: 0 1rem;
+    }
+    .FurrySafe p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #B4B4B4;
+        padding-left: 2rem;
+        font-family: sans-serif; 
+       }
+       .safeHand{
+        width: 100%;
+        height: auto;
+       }
+}
+
+@media (min-width:768px) and (max-width: 1080px){
+    .contFluid{
+        padding: 0 1rem;
+    }
+    .FurrySafe p{
+        font-size: 18px;
+    }
+    .safeHand{
+        text-align: center;
+        
+    }
+}

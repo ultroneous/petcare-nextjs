@@ -1,0 +1,99 @@
+.FeedbackSection{
+    padding: 6rem 0;
+}
+.contFluid{
+    padding: 0 4rem;
+  }
+.Feedbackimg{
+    text-align: left;
+}
+.FeedbackDeatails{
+    text-align: left;
+    padding: 2rem 0;
+    font-size: 22px;
+    font-weight: 400;
+    color: #B4B4B4;
+    padding-left: 3rem;
+    font-family: sans-serif; 
+}
+.prev{
+    background: transparent;
+    color: #B4B4B4;
+    border-radius: 20px;
+    width: 4rem;
+    height: 3rem;
+    border-color: #B4B4B4;
+    font-size: 20px;
+    font-weight: 700;
+}
+.prev:hover{
+    background: transparent;
+    color: #B4B4B4;
+    border-radius: 20px;
+    width:4rem;
+    height: 3rem;
+    border-color: #B4B4B4;
+    font-size: 20px;
+    font-weight: 700;
+}
+.next{
+    background: linear-gradient(90deg, #E39BA6 0%, #D47C88 100%);
+    color: #B4B4B4;
+    border-radius: 20px;
+    width:4rem;
+    height: 3rem;
+    border-color: #D47C88;
+    font-size: 20px;
+    font-weight: 700;
+}
+.next:hover{
+    background: linear-gradient(90deg, #E39BA6 0%, #D47C88 100%);
+    color: #B4B4B4;
+    border-radius: 20px;
+    width:4rem;
+    height: 3rem;
+    border-color: #D47C88;
+    font-size:20px;
+    font-weight: 700;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #B4B4B4;
+    background-color:transparent;
+    border-color: none;
+    box-shadow: none;
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #B4B4B4;
+    background-color:transparent;;
+    border-color: none;
+}
+@media (min-width:320px) and (max-width: 767px){
+    .feedbackimg{
+        width: 100%;
+        height: auto;
+        padding-bottom: 4rem;
+    }
+    .feedbackpera{
+        padding-left: 2rem;
+    }
+    .contFluid{
+        padding: 0 1rem;
+      }
+      .FeedbackDeatails{
+        font-size: 18px;
+        padding-left: 2rem;
+    }
+    .Feedbackimg{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1080px){
+    .Feedbackimg{
+        text-align:center;
+    }
+}

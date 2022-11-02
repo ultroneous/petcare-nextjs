@@ -1,0 +1,26 @@
+.introText{
+    background: url("/Images/pinkbackground.svg") no-repeat;
+    height: auto;
+  }
+  .introText h2{
+    font-size: 60px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    font-family: sans-serif; 
+    line-height: 96px;
+  }
+  @media (min-width:320px) and (max-width: 767px) {
+    .introText h2{
+      font-size: 30px;
+      font-weight: 700;
+      width: 100%;
+      text-align: left;
+      padding-top: 4rem;
+      padding-left: 2rem;
+      font-family: sans-serif; 
+      line-height: 65px;
+    }
+}

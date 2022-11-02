@@ -1,0 +1,84 @@
+.SignupSection{
+    padding: 4rem 0;
+}
+.contFluid{
+    padding: 0 4rem;
+}
+.signup-filed {
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    font-family: sans-serif; 
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+}
+
+.FormOutline{
+    padding-bottom: 1.5rem;
+}
+
+.Signuph3 {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    -webkit-text-stroke: 2px #dc8d99;
+    font-family: sans-serif; 
+}
+
+.SubmitButton{
+    display: flex;
+    justify-content: center;
+}
+
+.form-label{
+    display: flex;
+}
+/* .formControl:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #dc8d99 !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem  #dc8d99 !important;
+} */
+.Submit {
+    color: #fff;
+    background-color: #dc8d99 !important;
+    border-color: #dc8d99;
+    width: 7rem;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 2px solid #dc8d99;
+    font-family: sans-serif; 
+}
+.Submit:hover {
+    color: #dc8d99;
+    background-color: #fff !important;
+    border-color: #dc8d99;
+}
+.Submit:focus{
+    color: #fff;
+    background-color: #dc8d99 !important;
+    border-color: #dc8d99;
+    box-shadow: 0 0 0 0.25rem #dc8d99;
+}
+.Submit:active:focus{
+    box-shadow: 0 0 0 0.25rem #dc8d99;
+}
+@media (min-width:320px) and (max-width: 767px){
+    .contFluid{
+        padding: 0 1rem;
+    }
+    .Signuph3{
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
